@@ -1,0 +1,11 @@
+# Secrets et fichiers lourds : ne jamais pousser
+*.img
+*.qcow2
+*.log
+id_rsa*
+id_ed25519*
+*.pem
+*-openrc
+.env
+Thumbs.db
+.DS_Store
