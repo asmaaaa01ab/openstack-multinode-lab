@@ -1,0 +1,10 @@
+$ openstack compute service list
+# controller - Sat Nov  7 12:03:43 AM UTC 2026
++--------------------------------------+----------------+--------------+----------+---------+-------+----------------------------+
+| ID                                   | Binary         | Host         | Zone     | Status  | State | Updated At                 |
++--------------------------------------+----------------+--------------+----------+---------+-------+----------------------------+
+| 61c86f00-8fd7-4b3d-9a3d-3ed3f0d39fc6 | nova-scheduler | controller   | internal | enabled | up    | 2026-11-07T00:03:47.000000 |
+| c991da31-743d-4607-b5c7-d9fc969b4c53 | nova-conductor | controller   | internal | enabled | up    | 2026-11-07T00:03:47.000000 |
+| 4eedb952-ad25-4b1b-a831-1e7bac908b56 | nova-compute   | computefati  | nova     | enabled | up    | 2026-11-05T10:00:54.000000 |
+| 8e2c411e-8c5b-48c3-a097-8bd25f206aa9 | nova-compute   | computezineb | nova     | enabled | up    | 2026-11-05T09:29:09.000000 |
++--------------------------------------+----------------+--------------+----------+---------+-------+----------------------------+

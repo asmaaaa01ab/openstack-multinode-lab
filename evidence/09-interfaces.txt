@@ -1,0 +1,14 @@
+$ ip -br a
+# controller - Sat Nov  7 12:05:05 AM UTC 2026
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             192.168.11.113/24 metric 100 fe80::a00:27ff:fe51:c25d/64 
+enp0s8           DOWN           
+ztkti2m4ki       UNKNOWN        10.75.2.11/24 fe80::e02d:b7ff:fea1:9e75/64 
+tap2528391f-fe@if2 UP             
+tap895b42e3-be@if3 UP             
+vxlan-291        UNKNOWN        
+brq2465e135-1a   UP             fe80::748a:c3ff:fe40:d14/64 
+vxlan-557        UNKNOWN        
+brq5bc3dc78-6a   UP             fe80::80b6:4ff:fe7e:cd24/64 
+tap507c3fb2-63@if2 UP             
+tap947423e7-2f@if2 UP             

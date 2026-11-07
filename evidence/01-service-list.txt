@@ -1,0 +1,11 @@
+$ openstack service list
+# controller - Sat Nov  7 12:03:12 AM UTC 2026
++----------------------------------+-----------+-----------+
+| ID                               | Name      | Type      |
++----------------------------------+-----------+-----------+
+| 4439ab21d242470e8b6b26016bf099b8 | placement | placement |
+| 4917e378834f4ee0bdf8748d2c9147a2 | keystone  | identity  |
+| 5d52192ff6da4f44a2f650771f5713bf | nova      | compute   |
+| 7408d69a276a43c798d8feb1a9e8948e | glance    | image     |
+| d96fd1a23b5f4f58bcc1702d5bf24515 | neutron   | network   |
++----------------------------------+-----------+-----------+

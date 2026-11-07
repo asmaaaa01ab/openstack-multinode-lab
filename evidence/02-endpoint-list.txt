@@ -1,0 +1,21 @@
+$ openstack endpoint list
+# controller - Sat Nov  7 12:03:31 AM UTC 2026
++----------------------------------+-----------+--------------+--------------+---------+-----------+-----------------------------+
+| ID                               | Region    | Service Name | Service Type | Enabled | Interface | URL                         |
++----------------------------------+-----------+--------------+--------------+---------+-----------+-----------------------------+
+| 071f74ad86b4432699e54eff0c77aa33 | RegionOne | glance       | image        | True    | internal  | http://controller:9292      |
+| 0ed434913a6449dfa52239cf12bcb315 | RegionOne | neutron      | network      | True    | admin     | http://controller:9696      |
+| 1c064c89b9e24f2cb2c87d924c4ca9d0 | RegionOne | nova         | compute      | True    | admin     | http://controller:8774/v2.1 |
+| 1e5368479d5a4cb480705f97beba6fa1 | RegionOne | neutron      | network      | True    | internal  | http://controller:9696      |
+| 396bae6cd5c0482e819f80c6c1754b0c | RegionOne | keystone     | identity     | True    | internal  | http://controller:5000/v3/  |
+| 4236301764214b7883f6624a0d4c1601 | RegionOne | placement    | placement    | True    | internal  | http://controller:8778      |
+| 4c7f83de788b4250bfbf9da2b630aa2e | RegionOne | neutron      | network      | True    | public    | http://controller:9696      |
+| 51be2716fe3e4841b8dc766f1c98811c | RegionOne | glance       | image        | True    | public    | http://controller:9292      |
+| 84a043916e834f3e9cab3b60f7558442 | RegionOne | keystone     | identity     | True    | admin     | http://controller:5000/v3/  |
+| 87cec83a62d04e9483136253ab5ea883 | RegionOne | placement    | placement    | True    | public    | http://controller:8778      |
+| 9a86040dd4684f4ba5daa33025d7f6cd | RegionOne | keystone     | identity     | True    | public    | http://controller:5000/v3/  |
+| a688b4789b514e96844c43918d247810 | RegionOne | nova         | compute      | True    | public    | http://controller:8774/v2.1 |
+| c97ebc079c144004a75fe24adb2e09f9 | RegionOne | nova         | compute      | True    | internal  | http://controller:8774/v2.1 |
+| f3d165f545a14d0596e3df6bb1f00224 | RegionOne | glance       | image        | True    | admin     | http://controller:9292      |
+| f967f97817164659b7907f116401d16f | RegionOne | placement    | placement    | True    | admin     | http://controller:8778      |
++----------------------------------+-----------+--------------+--------------+---------+-----------+-----------------------------+
