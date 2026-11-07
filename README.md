@@ -6,8 +6,6 @@
 ![Réseau](https://img.shields.io/badge/Réseau-ZeroTier_VPN-FFB441)
 ![Installation](https://img.shields.io/badge/Installation-100%25_manuelle-2ea44f)
 
-Atelier 2 OpenStack, ENSAH (GL / ID3), Université Abdelmalek Essaâdi, 2026/2027.
-
 Ce projet met en œuvre un cloud privé IaaS **OpenStack 2024.1 (Caracal)** composé d'**un nœud contrôleur et de deux nœuds compute**, hébergés sur trois machines distinctes et reliés par un **VPN ZeroTier**. Le déploiement est entièrement **manuel**, service par service, conformément à l'Install Guide officiel : aucun outil d'installation automatique (DevStack, MicroStack, Kolla-Ansible) n'a été utilisé.
 
 **Compétences illustrées** : administration Linux, réseau (VPN, VXLAN, ponts Linux, espaces de noms), architecture distribuée OpenStack.
@@ -93,7 +91,7 @@ Projet réalisé en trinôme.
 
 | Membre | Responsabilité |
 |---|---|
-| Asmae Abakouy | Nœud contrôleur (ensemble des services de contrôle), architecture réseau ZeroTier, documentation, dépôt GitHub |
+| Asmae Abakouy | Nœud contrôleur (ensemble des services de contrôle), architecture réseau ZeroTier |
 | Fati | Nœud compute1 (`computefati`, 10.75.2.31) |
 | Zineb | Nœud compute2 (`computezineb`, 10.75.2.32) |
 
