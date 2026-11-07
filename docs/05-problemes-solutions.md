@@ -57,7 +57,7 @@ Puis `sudo systemctl daemon-reload && sudo systemctl restart memcached`.
 
 **Enseignement** : une commande qui marche dans un terminal peut échouer dans un service systemd sandboxé.
 
-## 3. Fautes de saisie dans les commandes
+## 3. Erreurs de saisie et d'environnement 
 
 | Symptôme | Cause | Correction |
 |---|---|---|
@@ -67,7 +67,7 @@ Puis `sudo systemctl daemon-reload && sudo systemctl restart memcached`.
 
 ![qcow2](images/pb03-qcow2-faute-de-frappe.png)
 
-**Enseignement** : copier-coller les commandes, utiliser la complétion par Tab, lire les messages d'erreur jusqu'au bout (ici la liste des valeurs valides était dans le message).
+**Enseignement** : pour les commandes longues, préparer la commande dans un éditeur de texte puis la coller permet de la relire avant exécution ; mais l'essentiel est de vérifier les valeurs attendues dans l'aide (--help) et de lire le message d'erreur en entier.
 
 ## 4. `keystone-manage db_sync` : `ConfigFileParseError`
 
@@ -134,6 +134,9 @@ Remarque : la synchronisation s'écrit `placement-manage db sync` (espace), alor
 ![Neutron corrigé](images/pb08-neutron-server-corrige.png)
 
 **Enseignement** : une erreur côté interface web peut venir d'un service backend ; suivre la chaîne jusqu'au service qui ne répond pas.
+
+## Conclution
+Sur les 8 incidents, 6 relevaient de la configuration ou de l'architecture, 1 de l'environnement systemd et 1 de l'ergonomie de saisie — ce qui illustre la complexité réelle d'un déploiement manuel multi-nœuds.
 
 ## Notes
 
